@@ -1,0 +1,55 @@
+Subsection intro
+================
+
+Every story, no matter how much action-packed it is, begins with introducing the main actors.
+Our course is certainly going to have a lot of action, and it will touch many different domains of physics.
+There are however only three main actors: topology, symmetry, and bulk-edge correspondence, and now we will introduce them before the main action begins.
+
+Maybe the most frequent question I get from students who begin their research in this field is:
+"What is topology? What is so cool or useful about topological systems?"
+The answer is extremely simple.
+Topology is about all the things that cannot change continuously, and in order to define it we first need to tell what we call continuous.
+For the same reason topology in general is not useful at all, especially if we choose a silly discrete quantity.
+For example I could call every quantum system with size less than one micron a nano-system, and study the topological classification of every experiment into nano- and macro- experiments.
+
+So in order to apply topology meaningfully we need to focus on useful physical characteristics.
+There is of course no way to make a complete list of all the useful topological properties, and indeed it keeps growing.
+However most of the time that you hear about topological systems, it's all about an extremely simple topological quantity: presence or absence of particles with zero excitation energy.
+
+If you think about it for a second, this property seems almost as ridiculous as the division of the systems by their size.
+After all: who cares if there are no excitations with zero energy, maybe there are those with small energy?
+The curious thing is that if we only consider systems without zero energy excitations, it may happen that some of these cannot be transformed into others without zero energy excitations appearing somewhere on the way.
+That way you can group all of the systems with a gap for particle excitations into separate classes and check what is the difference between those.
+
+Once again, if you remember what I said before about the usefulness of topology, this difference sometimes won't be profound at all, and sometimes it is worth decades of research.
+Well... now we'll focus on the 'not profound at all' case: zero dimensional systems or quantum dots.
+
+Before we dive into the topic, I should also say a few words about the other important player: symmetry.
+Unlike topology, it's an extremely well known concept in physics, and it defines how we think about most things. 
+So crystals have translation symmetry, energy conservation is a consequence of the time translation symmetry, and magnets exist because they spontaneously break time-reversal and spin-rotation symmetries.
+To topology, symmetry is like an added flavor, so that when we study the same topological properties in systems with a different symmetry, we may come to a completely different answer.
+
+But enough of the introduction!
+Go ahead, study the materials of this section.
+Since it's the very first one, it will be simple (or so I hope), and it won't take much time.
+Keep track however at how topology appears, and what is the interplay between topology and symmetry.
+
+Subsection summary
+==================
+
+That's it!
+So we learned the simplest topological invariant of zero-dimensional systems: the number of negative energy states.
+The mathematical expression for it is the matrix signature of the Hamiltonian, and if I wanted to use a fancier name, I could call it 'zeroth Chern number'.
+
+In presence of a conservation law, the Hamiltonian becomes block-diagonal, and one can just study topology of its different blocks separately.
+
+We learned that the classification of systems by the number of filled states is the same if the time-reversal symmetry is broken, but the number of filled states becomes even if the system has spinful time-reversal symmetry.
+
+Sublattice symmetry makes number of levels constant since half of the levels are below zero and half are above, so that transitions between different numbers of levels never appear.
+Finally, particle-hole symmetry also makes the signature constant just like sublattice symmetry, it generates a different kind of topological invariant.
+It equals to the sign of Pfaffian of the Hamiltonian, and can therefore only assume two values.
+The physical meaning of this last invariant is the parity of the electron number in the ground state.
+
+Like this the symmetry defines the type or even the presence of topological invariant.
+This will stay correct throughout the course, and it's one of the important principles to remember.
+It gets particularly tricky in presence of a conservation law, when the full Hamiltonian may have a symmetry different from one of the blocks, so that studying the topology of the full Hamiltonian will lead to wrong results.

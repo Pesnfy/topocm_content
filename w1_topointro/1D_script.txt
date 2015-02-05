@@ -1,0 +1,53 @@
+Intro
+=====
+
+Topology, as applied to 0 dimensional systems, which is what you learned so far might feel like glorified counting -
+nothing worth an EdX course. To see the full power of topology we will need to introduce a notion of space by studying one dimensional systems.
+This will show us one of the most important things there is to know about topological systems, that is the bulk-edge correspondence.
+The bulk-edge correspondence of a topological system is what allows the edge to develop totally unique properties, which can only
+exist because of the bulk.
+The bulk-edge correspondence is similar to the appearance of poles at the ends of a magnet. The North and South poles at the end of a magnet can never appear on their own in isolation from the magnet itself.
+Some topological invariants are similar to the properties of the bulk of a magnet: whenever an insulating bulk of a material istopologically nontrivial, its edges acquire properties that are impossible to creat alone without the bulk.
+This is the bulk-edge correspondence, that is the source of all power of the idea of topology in condensed matter systems, and that allows us to construct physical systems with fundamentally new behavior impossible without using topological effects.
+The topic of this subsection, one dimensional systems, are rather easy to make by stringing together a chain of 0D systems.
+So we can stack superconducting quantum dots into what is called a Kitaev chain. Once we do this - voila! - we have room for a serious example of the bulk-edge correspondence, the Majorana modes.
+The Majorana modes turn out to be remarkably interesting objects for many reasons. Yet, when you get around to the first figure and the next few lines of algebra in the first unit of this section, you will begin to see that Majorana modes in the Kitaev chain are about as simple as a game of dominos. Personally, this simplicity is what sucked me in to obsessing over Majorana modes. Something this simple could not elude experimental realization forever. I am totally willing to waste a lot of my time looking for something so cool and simple.
+Getting back to the bulk-edge correspondence, the simple example of Majorana modes shows how the edge of a tological system allows you to do something that would not be possible otherwise, which is
+to effectively split electrons into isolated Majorana modes at each end of the chain. Just like the poles of a magnet, the
+Majorana modes can only occur in pairs at the two ends of the chain and never in isolation. Through all of this, the more mathematically minded of you might wonder if this "Topology in Condensed Matter" has anything to do with topology in Mathematics. In the second part of this subsection, we will convince ourselves that these are indeed the same idea by realizing that the bulk-edge correspondence actually originates from the way the bulk 0 dimensional Bloch Hamiltonians are pasted together around a periodic momentum space. This is quite analogous to how a Mobius strip is a topological object [Show a mobius strip]. You could think of a strip with a y-axis that represents the Bloch Hamiltonian and the x axis representing momentum space. Since the momentum has periodic boundary conditions, one needs to paste the ends of the strip together to represent the system. A boring way of doing this would be to paste the ends into a cylinder and this would result in two separate edges. On the other hand, pasting the strip with a twist would create only one edge. Not so metaphorically, how we twisted the middle of the strip affects the number of edges of the system, much in the same way the bulk Hamiltonian topology affects the number of edge modes.
+In summary, the one dimensional Kitaev chain is an amazing illustration of the defining aspect of a topological phase, namely
+the bulk edge correspondence. I hope you will be as mesmerized with this model as I still am as you walk through the units in this subsection.
+
+
+
+
+Summary
+=======
+
+
+Hi again. So what did we now achieve?
+Our first goal was to demonstrate how the bulk-edge correspondence could emerge in a topological system.
+ We started by splitting up a single electron site into a pair of Majorana sites and noticing that there is no way to realize an isolated Majorana mode from electrons. We then managed to sneak 
+around this by stringing together a chain of these electron sites considered as pairs of Majoranas and linking the Majoranas on the 
+inside of the chain. By doing this in a way where the end Majoranas were left unpaired we got isolated Majoranas at the ends of the chain that were as far apart from each other as we wanted them to be. Reexpressing the Majorana operators in terms of fermions, we were able to write the superconducting Hamiltonian that realized these isolated Majorana modes.
+This Hamiltonian is a special case of the celebrated Kitaev chain and it is a premier example of the bulk-edge 
+correspondence since it realizes isolated Majorana modes at the edges that can never occur by themselves.
+The Majorana modes obtained were not just a property of this contrived domino model, but were robust to all local changes of the Hamiltonian as long as there was a bulk gap.
+This kind of topological protection is a generic characteristic of topological  edge modes that define a bulk topological phase.
+Clearly, entering and exiting topological phases would require a closing of the bulk gap, which is referred to as a  topological quantum phase transition.  Since such phases are typically quantum, topological and defined at zero temperature, the corresponding phase transitions go under the fancy name of topological quantum phase transitions. These phase transitions always involved closing of a bulk gap and in the simple cases of non-interacting systems, the phase transition points are described by Dirac Hamiltonians. The general form of the Dirac Hamiltonian does not depend on details and is completely constrained by the symmetries of the phase.  The Dirac Hamiltonian  provided us with another way to obtain isolated Majorana modes by considering domain walls between the topological and non-topological phases. 
+So we now have two ways of obtaining Majorana modes from the same Hamiltonian, one is the so-called strong coupling limit that produces Majorana modes localized on a single site and the other, which is referred to as the Dirac limit, produces very delocalized Majorana modes in a weakly gapped system.
+These limits  are really different sides of the same coin and have both been used successfully for pretty much every single 
+topological insulator out there.
+Despite the excitement at the edge, the bulk topological invariant was what allowed us to connect the "topology in
+condensed matter" to the more conventional notions of topology in math. The bulk system was characterized by a Bloch hamiltonian associated with each crystal momentum k that was constrained to be on a circle. It turned out that under the appropriate symmetry constraints, the differences in continuous ways of associating Hamiltonians with crystal momentum is quite analogous to the difference between a cylinder and a Mobius strip. As you can imagine, this is the part that becomes mathematically challenging. Fortunately for us, mathematicians have worked out the answers to all these twisty puzzles in the form of a branch of topology called K-theory.
+For our 1D superconductors, the bulk topological invariant that is determined from particle-hole symmetry is the Pfaffian.
+While we left the derivation of this conclusion to mathematicians, we could check that the quantity defined is indeed invariant 
+as long as the gap didn't close and therefore is by definition a topological invariant. By considering a thought experiment in a 
+ring geometry, we even managed to show the bulk-edge correspondence between the bulk Pfaffian invariant and the existence of edge Majorana modes. So, faced with a Bloch Hamiltonian for the bulk, all we have to do is compute the Pfaffian-based topological invariant and we can be sure whether the system will support Majorana modes at the edges.
+This completes the idea of the bulk-edge correspondence. The bottom line is that extended topological systems with separable bulk and edges have characteristic properties of the bulk and edges which are 
+totally unique to the system. Knowing either the bulk or the edge property will allow you to predict the properties of the other in 
+a topologically robust way.
+
+
+
+
